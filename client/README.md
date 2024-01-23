@@ -14,11 +14,11 @@ con los siguientes botones:
 - **Submit**: Al hacer clic en este botón, se abrirá un popup con un formulario y la información 
 del usuario seleccionado. Aquí podrás editar cada uno de los campos del usuario. La contraseña no es un dato obligatorio, 
 por lo que si la dejas en blanco, tu contraseña seguirá siendo la misma.
-- **Delete**: Al hacer click en este botón podrás eliminar el usuario seleccionado.
+- **Delete**: Al hacer clic en este botón podrás eliminar el usuario seleccionado.
 
-En la parte superior de la aplicación encontraras 2 botones:
-- **Add**: En este podras crear nuevos usuarios.
--  **Log out**: Boton para cerrar sesión y volver al login
+En la parte superior de la aplicación encontrarás 2 botones:
+- **Add**: En este podrás crear nuevos usuarios.
+-  **Log out**: Botón para cerrar sesión y volver al login.
 
 ## Tipos de datos
 
@@ -29,5 +29,9 @@ En la parte superior de la aplicación encontraras 2 botones:
 | Email | Email   | Email del usuario |
 | Birthdate | Fecha   | Fecha de nacimiento del usuario |
 | Password | Texto   | Contraseña del usuario |
-
-
+**Nota**: El email debe de ser único, ya que no se registraran 2 usuarios con el mismo email.
+## Próximas versiones.
+Se piensa implementar para próximas versiones:
+- Ordenar ascendente y descendentemente por nombre, apellido o fecha de nacimiento.
+- Paginación.
+- Capturar mensajes de error o éxito al realizar las peticiones que ya están implementados en el servidor.
