@@ -36,3 +36,4 @@ Se piensa implementar para próximas versiones:
 - Ordenar ascendente y descendentemente por nombre, apellido o fecha de nacimiento.
 - Paginación.
 - Capturar mensajes de error o éxito al realizar las peticiones que ya están implementados en el servidor.
+- Búsqueda de usuarios por correo electrónico.
