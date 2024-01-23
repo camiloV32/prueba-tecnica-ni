@@ -29,6 +29,7 @@ En la parte superior de la aplicación encontrarás 2 botones:
 | Email | Email   | Email del usuario |
 | Birthdate | Fecha   | Fecha de nacimiento del usuario |
 | Password | Texto   | Contraseña del usuario |
+
 **Nota**: El email debe de ser único, ya que no se registraran 2 usuarios con el mismo email.
 ## Próximas versiones.
 Se piensa implementar para próximas versiones:
