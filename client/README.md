@@ -1,16 +1,33 @@
-## CLIENT
-This client application features a login where you can create a user to subsequently access the dashboard. 
-Once logged in, you'll have a 5-minute session in the dashboard where you can create, update, delete, 
-or edit a user. You also have the option to log out.
+# CLIENT
+Esta aplicación cliente cuenta con un inicio de sesión en el cual podrás crear un usuario para posteriormente ingresar al panel de control. 
+En este panel, tendrás una sesión de 5 minutos, durante la cual podrás crear, actualizar, eliminar o editar usuarios. 
+También tendrás la opción de cerrar sesión.
 
 ## Endpoints
 
 ### "/" 
-Base route displaying the login form to access the dashboard.
+Ruta base que muestra el formulario de inicio de sesión para acceder al dashboard.
 
 ### "/dashboard"
-A protected route that can only be accessed after logging in. In this route, all users will be listed in a table, 
-with a button to update their information. Clicking this button will show a popup with a form and the user's information, 
-allowing you to edit each field. The password is not a required field, so if left blank, your password will remain the same.
+Ruta protegida que solo se puede acceder después de iniciar sesión. En esta ruta, se mostrarán todos los usuarios en una tabla, 
+con los siguientes botones:
+- **Submit**: Al hacer clic en este botón, se abrirá un popup con un formulario y la información 
+del usuario seleccionado. Aquí podrás editar cada uno de los campos del usuario. La contraseña no es un dato obligatorio, 
+por lo que si la dejas en blanco, tu contraseña seguirá siendo la misma.
+- **Delete**: Al hacer click en este botón podrás eliminar el usuario seleccionado.
+
+En la parte superior de la aplicación encontraras 2 botones:
+- **Add**: En este podras crear nuevos usuarios.
+-  **Log out**: Boton para cerrar sesión y volver al login
+
+## Tipos de datos
+
+| Nombre | Tipo | Descripción |
+|----------|----------|----------|
+| Name    | Texto  | Nombre completo de usuario |
+| Lastname    | Texto   | Apellido completo de usuario   |
+| Email | Email   | Email del usuario |
+| Birthdate | Fecha   | Fecha de nacimiento del usuario |
+| Password | Texto   | Contraseña del usuario |
 
 
