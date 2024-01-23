@@ -5,4 +5,8 @@ crear, actualizar, eliminar o editar un usuario, tambien podras cerrar sesion
 
 ## Endpoints
 
-### "/"
+### "/" 
+Ruta base que muestra el login para ingresar al dashboard
+
+### "/dashboard"
+Ruta protegida la cual solo se puede ingresar una vez te hayas logueado 
