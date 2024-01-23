@@ -1,0 +1,23 @@
+.header {
+  background-color: #0d6efd;
+  color: #ffffff;
+  padding: 10px;
+  text-align: left;
+  }
+.custom-table {
+  border: none;
+  opacity: 0.8; 
+}
+  
+.custom-table tbody tr:nth-child(odd) {
+  background-color: rgba(0, 0, 0, 0.05); 
+}
+  
+.custom-table tbody tr:nth-child(even) {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+  
+  .custom-table th,
+  .custom-table td {
+    border: none;
+  }
