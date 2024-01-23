@@ -3,9 +3,9 @@ class DataBaseConnection{
     async connectDB(query){
         const conn = await createPool({
             database:"crud-usuarios",
-            user:"z4bdoj72ujwc9jf3u2zm",
+            user:"8y8vzerxcmhqglz1qzd5",
             host:"aws.connect.psdb.cloud",
-            password:"pscale_pw_oyJYRi79jC2ChG1vFlOQyrkYynOCtlyciHu7KFYaGeJ",
+            password:"pscale_pw_FZTUelHM0lOtIxjEi6lyGlFoV2z0EaTTjCRKBGaHvzf",
             ssl:{
                 rejectUnauthorized:false
             }
